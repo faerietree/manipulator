@@ -7,7 +7,7 @@ Developers:
 ---
 worlddevelopment e.V. & other world citizens
 
-
+<img src="transmission_ratio_28.schematic.jpg" alt="schematic" title="joint transmission ratio 28"/>
 
 
 
