@@ -1,7 +1,7 @@
 Robotic Manipulator
 ===
 
-The pivot of most machines of the world development global village construction set.
+The pivot of many machines of the world development global village construction set.
 
 Developers:
 ---
