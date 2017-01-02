@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+	<name>manipulator</name>
+	<summary>Multi axes robotic arm.</summary>
+	<!--
+	<description>
+	</description>
+	-->
+
+	<homepage>http://github.com/faerietree/manipulator</homepage>
+
+
+	<!-- tags: -->
+	<category type="">manipulator</category>
+	<category type="">arm</category>
+	<category type="">machine</category>
+	<category type="">automaton</category>
+	<category type="">robot</category>
+	<!-- If type is not given, then it is assumed being one of the main application category specification:
+		  https://specifications.freedesktop.org/menu-spec/latest/apa.html
+	-->
+	<category>Science</category>
+	<category>Development</category>
+
+	<!-- Feed that contains more implementations of this feed's interface:
+	e.g. arch='*-src' means that there is no point fetching this feed unless you are looking for source code
+	<feed src="another_feed_uri" arch="-src" langs="en_GB"/>
+	-->
+
+	<!-- implementations in this feed are for the stated interface:
+	 a feed might point to an optional extra feed, e.g. a development feed for a local version using 0install add-feed
+	<feed-for interface='~/manipulator/'/>
+	-->
+	<feed-for interface="http://raw.githubusercontent.com/faerietree/manipulator/master/public/interface.xml"/>
+
+	<group doc-dir="doc" license="CC-BY-SA" main="" version="0.1">
+		<!-- for this group common dependencies: -->
+		<!-- open hand project -->
+		<requires interface="http://raw.githubusercontent.com/faerietree/hand/public/interface.xml" alias="hand">
+			<!--
+			<version not-before="">
+			</version>
+			-->
+		</requires>
+
+		<implementation id="." version="0.1-pre">
+			<manifest-digest sha256="" sha256new=""/>
+
+			<!-- executed by 0launch by default -->
+			<command name="run" path="kicad">
+				<runner interface="http://raw.githubusercontent.com/faerietree/kicad/public/interface.xml">
+					<version not-before="BZR-4792"/>
+				</runner>
+				<arg>high_level_overview.sch</arg>
+			</command>
+
+		</implementation>
+
+	</group>
+
+	<!--<needs-terminal/>-->
+
+
+</interface>
