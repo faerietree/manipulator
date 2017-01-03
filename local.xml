@@ -53,6 +53,10 @@
 					as="mechanics/gear_planet_to_sun.blend">
 					86db0705452a088633e7ac9dc27a2a3c5a99fb2bbf1b43e92b84f63ec1dc9ffd
 				</file>
+				<file path="gear.type_internal__.d.pitch_.150__.d.smallest_.147__.material_steel.c45__.mass_1.241__.module_1.5__tooth.type_spur__.w_.015__id_22841000.blend"
+					as="mechanics/gear_ring.blend">
+					251696857dbd229350b044312f25d52d1b665047903bcd106550b7cb0a04c2d4
+				</file>
 			</includes>
 		</requires>
 
