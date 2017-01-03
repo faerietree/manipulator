@@ -63,6 +63,14 @@
 				</file>
 			</includes>
 		</requires>
+		<requires interface="http://raw.githubusercontent.com/faerietree/step_motors/public/interface.xml">
+			<includes>
+				<file path="NEMA34_86HS59_13.5Nm.blend"
+					as="mechanics/motor.blend">
+					4b8cea9c65328a804604d96faa3392c7db63ff2d677441f10e53e582bbda33ae
+				</file>
+			</includes>
+		</requires>
 
 		<implementation id="." version="0.1-pre">
 			<manifest-digest sha256="" sha256new=""/>
