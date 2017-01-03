@@ -57,6 +57,10 @@
 					as="mechanics/gear_ring.blend">
 					251696857dbd229350b044312f25d52d1b665047903bcd106550b7cb0a04c2d4
 				</file>
+				<file path="gear.d.pitch_.03__.mass_.140__.material_steel.c45__.module_2__.torque_12.9__.w_.02__bore.d_.01__hub.d_.024__.w_.015__tooth.type_spur__.treatment_hardened__id_23188115.blend"
+					as="mechanics/gear_star.blend">
+					8e4ef2a6d05e6c9e53638eaa564f0cfe461685eb27eb66b97b3bcbaab126aae9
+				</file>
 			</includes>
 		</requires>
 
