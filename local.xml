@@ -43,6 +43,8 @@
 			</version>
 			-->
 		</requires>
+		<requires interface="http://raw.githubusercontent.com/faerietree/gears_maedler/public/interface.xml">
+		</requires>
 
 		<implementation id="." version="0.1-pre">
 			<manifest-digest sha256="" sha256new=""/>
