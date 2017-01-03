@@ -44,6 +44,12 @@
 			-->
 		</requires>
 		<requires interface="http://raw.githubusercontent.com/faerietree/gears_maedler/public/interface.xml">
+			<includes>
+				<file path="gear.d.pitch_.018__.mass_.040__.material_steel.c45__.module_1.5__.torque_3.8__.w_.017__bore.d_.008__hub.d_.014__.w_.013__tooth.type_spur__.treatment_hardened__id_21888112.blend"
+					as="mechanics/gear_planet_to_ring.blend">
+					64bebf3678f67ab97b27f5151021860a8aabb2523b2254c707276ce945122ad5
+				</file>
+			</includes>
 		</requires>
 
 		<implementation id="." version="0.1-pre">
