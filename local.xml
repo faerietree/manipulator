@@ -12,10 +12,11 @@
 
 
 	<!-- tags: -->
-	<category type="">manipulator</category>
 	<category type="">arm</category>
-	<category type="">machine</category>
 	<category type="">automaton</category>
+	<category type="">bot</category>
+	<category type="">machine</category>
+	<category type="">manipulator</category>
 	<category type="">robot</category>
 	<!-- If type is not given, then it is assumed being one of the main application category specification:
 		  https://specifications.freedesktop.org/menu-spec/latest/apa.html
@@ -45,29 +46,22 @@
 		</requires>
 		<requires interface="http://raw.githubusercontent.com/faerietree/gears_maedler/public/interface.xml">
 			<includes>
-				<file path="gear.d.pitch_.018__.mass_.040__.material_steel.c45__.module_1.5__.torque_3.8__.w_.017__bore.d_.008__hub.d_.014__.w_.013__tooth.type_spur__.treatment_hardened__id_21888112.blend"
-					as="mechanics/gear_planet_to_ring.blend">
-					<manifest-digest sha256="64bebf3678f67ab97b27f5151021860a8aabb2523b2254c707276ce945122ad5"/>
-				</file>
-				<file path="gear.d.pitch_.100__.mass_.289__.material_plastic.pom.black__.module_2__.torque_19.8__.w_.02__bore.d_.015__hub.d_.070__.w_.015__tooth.type_spur__id_29611050.blend"
-					as="mechanics/gear_planet_to_sun.blend">
-					<manifest-digest sha256="86db0705452a088633e7ac9dc27a2a3c5a99fb2bbf1b43e92b84f63ec1dc9ffd"/>
+				<file path="gear.d.pitch_.018__.mass_.025__.material_steel.16MnCr5__.module_1.5__.torque_12.5__.w_.018__bore.d_.008__tooth.type_spur__.treatment_hardened__id_22881200.blend"
+						as="mechanics/gear_pinion.blend">
+					<manifest-digest sha256="f769f7c24cebb64eab3eda0bf0a7fb12844fd7ef5d5308047d416a0f84d5429e"/>
 				</file>
 				<file path="gear.type_internal__.d.pitch_.150__.d.smallest_.147__.material_steel.c45__.mass_1.241__.module_1.5__tooth.type_spur__.w_.015__id_22841000.blend"
-					as="mechanics/gear_ring.blend">
+						as="mechanics/gear_ring.blend">
 					<manifest-digest sha256="251696857dbd229350b044312f25d52d1b665047903bcd106550b7cb0a04c2d4"/>
-				</file>
-				<file path="gear.d.pitch_.03__.mass_.140__.material_steel.c45__.module_2__.torque_12.9__.w_.02__bore.d_.01__hub.d_.024__.w_.015__tooth.type_spur__.treatment_hardened__id_23188115.blend"
-					as="mechanics/gear_star.blend">
-					<manifest-digest sha256="8e4ef2a6d05e6c9e53638eaa564f0cfe461685eb27eb66b97b3bcbaab126aae9"/>
 				</file>
 			</includes>
 		</requires>
-		<requires interface="http://raw.githubusercontent.com/faerietree/step_motors/public/interface.xml">
+		<requires interface="http://raw.githubusercontent.com/faerietree/parts_sorotec/public/interface.xml">
 			<includes>
-				<file path="NEMA34_86HS59_13.5Nm.blend"
+				<file path="step_motor_NEMA23_bipolar.h_.06__.l_.09__.i_5__.steps_200__.torque_3__shaft.d_.008__id_ESM.6088.50.blend"
 					as="mechanics/motor.blend">
-					<manifest-digest sha256="4b8cea9c65328a804604d96faa3392c7db63ff2d677441f10e53e582bbda33ae"/>
+					<manifest-digest sha256="0e0fcfa6b64cc6dd1d5a5d8ec73504e068ca5670e31487b9cc6a9000715b19e5"/>
+
 				</file>
 			</includes>
 		</requires>
