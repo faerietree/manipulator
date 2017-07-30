@@ -46,21 +46,21 @@
 		</requires>
 		<requires interface="http://raw.githubusercontent.com/faerietree/gears_maedler/public/interface.xml">
 			<includes>
-				<file path="gear.d.pitch_.018__.mass_.025__.material_steel.16MnCr5__.module_1.5__.torque_12.5__.w_.018__bore.d_.008__tooth.type_spur__.treatment_hardened__id_22881200.blend"
+				<file path="gear.d.pitch_.03__.mass_.088__.material_steel.16MnCr5__.module_2__.torque_44.4__.w_.02__bore.d_.015__hub.w_.023__tooth.type_spur__.treatment_hardened__id_24181515.blend"
 						as="mechanics/gear_pinion.blend">
-					<manifest-digest sha256="f769f7c24cebb64eab3eda0bf0a7fb12844fd7ef5d5308047d416a0f84d5429e"/>
+					<manifest-digest sha255="9a0b098993762774a289904532fd9a03c797f8fffebe947f7c063a752f723f35"/>
 				</file>
-				<file path="gear.type_internal__.d.pitch_.150__.d.smallest_.147__.material_steel.c45__.mass_1.241__.module_1.5__tooth.type_spur__.w_.015__id_22841000.blend"
-						as="mechanics/gear_ring.blend">
-					<manifest-digest sha256="251696857dbd229350b044312f25d52d1b665047903bcd106550b7cb0a04c2d4"/>
+				<file path="gear.d.pitch_.18__.mass_.821__.material_plastic.pom__.module_2__.torque_36.1__.w_.02__bore.d_.02__hub.d_.090__.w_.015__tooth.type_spur__id_29611090.blend"
+						as="mechanics/gear.blend">
+					<manifest-digest sha256="f53de2ea315a1a711d4bf3f68f68900096f7a97fa251a88bb77c362a0f9d2f73"/>
 				</file>
 			</includes>
 		</requires>
 		<requires interface="http://raw.githubusercontent.com/faerietree/parts_sorotec/public/interface.xml">
 			<includes>
-				<file path="step_motor_NEMA23_bipolar.h_.06__.l_.09__.i_5__.steps_200__.torque_3__shaft.d_.008__id_ESM.6088.50.blend"
+				<file path="step_motor_NEMA34_bipolar_86BYGH450H.h_.08585__.l_.156__.i_8.4__.steps_200__.torque_15.3__shaft.d_.014__id_ESM.86156.84MD.blend"
 					as="mechanics/motor.blend">
-					<manifest-digest sha256="0e0fcfa6b64cc6dd1d5a5d8ec73504e068ca5670e31487b9cc6a9000715b19e5"/>
+					<manifest-digest sha256="6ea5ea7f486db0273cf74d1e2706d43ae50cffb438ed757e58182b302ad3108f"/>
 
 				</file>
 			</includes>
