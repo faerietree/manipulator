@@ -60,7 +60,7 @@
 			<includes>
 				<file path="step_motor_NEMA34_bipolar_86BYGH450H.h_.08585__.l_.156__.i_8.4__.steps_200__.torque_15.3__shaft.d_.014__id_ESM.86156.84MD.blend"
 					as="mechanics/motor.blend">
-					<manifest-digest sha256="6ea5ea7f486db0273cf74d1e2706d43ae50cffb438ed757e58182b302ad3108f"/>
+					<manifest-digest sha256="399f02c93ad13715258101238668fc8e4800e9de0c9a38443b3643f96fd10754"/>
 
 				</file>
 			</includes>
